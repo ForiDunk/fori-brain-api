@@ -12,7 +12,7 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host: '127.0.0.1',
+    host: 'postgresql-defined-14995',
     user: 'fori',
     password: '1910403142614Fori',
     database: 'fori-brain',
